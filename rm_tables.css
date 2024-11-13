@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+/*
+    Practical 6B
+    Filename:          rm_tables.css
+
+*/
+
+/* Table Styles */
+table{
+    width: 100%;
+}
+
+
+#pricing
+{
+    background: linear-gradient(to bottom, rgb(255, 190, 190), rgb(161, 78, 1));
+    border: 5px solid gray;
+}
+/* Column Styles */
+col#firstCol {
+    width: 24%;
+}
+
+col.dataCols {
+    width: 19%;
+}
+
+/* Table Header Styles */
+
+#pricing,
+#pricing th,
+#pricing td {
+    border: 3px solid gray;
+    padding: 8px;
+    line-height: 1.4em;
+
+}
+#pricing,
+#pricing thead th {
+    background-color: rgb(158, 6, 6);
+    color: rgb(213, 226, 24);
+    font-weight: normal;
+}
+
+tbody th{
+    background-color: rgb(158, 6, 6);
+    font-weight: 300;
+}
+
+td {
+    font-size: 0.9em;
+    color: white;
+    vertical-align: top;
+}
+
+thead tr {
+    height: 60px;
+}
+
+/* First Header Cell Font Size */
+thead tr:first-of-type th:first-of-type {
+    font-size: 2em;
+}
+
+/* Non-First Header Cell Background and Font Color */
+#pricing thead tr:first-of-type th:not(:first-of-type) {
+    background-color: transparent;
+    color: black;
+}
+
+
+
+
+
+
